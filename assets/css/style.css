@@ -1,0 +1,30 @@
+:root {
+    --cor-texto: white;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    border-bottom: 2px solid var(--cor-texto);
+    padding-bottom: 5px;
+}
+
+a:hover{
+    color: aquamarine;
+    border-bottom: 1px solid aquamarine;
+}
